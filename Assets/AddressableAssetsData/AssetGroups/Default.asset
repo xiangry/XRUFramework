@@ -10,13 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: Default
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: Default
   m_Data:
     m_SerializedData: []
   m_GUID: e161eb77140ade849886a13d776d82ea
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 1833b96eb846c814ea2a3c14011f8502
+    m_Address: Assets/AssetsPackage/material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Material
+    m_MainAsset: {fileID: 102900000, guid: 1833b96eb846c814ea2a3c14011f8502, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 1833b96eb846c814ea2a3c14011f8502, type: 3}
+  - m_GUID: 3dce63b7ba93bdb459f84426f08b245e
+    m_Address: Assets/AssetsPackage/prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+    m_MainAsset: {fileID: 102900000, guid: 3dce63b7ba93bdb459f84426f08b245e, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 3dce63b7ba93bdb459f84426f08b245e, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e15653ae75e418b4a8cad6d326f9b1f4, type: 2}
   m_SchemaSet:

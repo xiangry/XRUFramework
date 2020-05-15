@@ -46,6 +46,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
         m_Value: http://localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: e7bd7a64f45893847a06222d08c5bcf9
+      m_ProfileName: Remote
+      m_Values:
+      - m_Id: e7fa94d13134d2f47b05b25772c5936d
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: c451fd5ac317b8741bc9b3713b81b1de
+        m_Value: '[Application.dataPath/../AddressableBuild]/local/[BuildTarget]'
+      - m_Id: ac703c166dea5944d92dbcdc6e733453
+        m_Value: '[Application.dataPath/../AddressableBuild]/local/[BuildTarget]'
+      - m_Id: dfda3ed61b68371438ff9b8a9c0d4e28
+        m_Value: '[Application.dataPath/../AddressableBuild]/server/[BuildTarget]'
+      - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
+        m_Value: http://10.0.10.103:8449/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: e7fa94d13134d2f47b05b25772c5936d
       m_Name: BuildTarget
@@ -66,6 +80,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Prefab
+    - Material
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
@@ -79,7 +95,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5271ba2f1208ac849a0cfd8feb273d9d, type: 2}
   - {fileID: 11400000, guid: 72c30a044c467ab408a82140ce1f8bca, type: 2}
   - {fileID: 11400000, guid: 92bf9d0003deea949b84d3730bd222a7, type: 2}
-  m_ActiveProfileId: c6645d6fbdc5c1149854008288e4d19f
+  m_ActiveProfileId: e7bd7a64f45893847a06222d08c5bcf9
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}

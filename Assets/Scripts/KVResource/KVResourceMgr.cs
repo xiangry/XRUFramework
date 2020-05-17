@@ -16,7 +16,7 @@ public class KVResourceMgr : MonoSingleton<KVResourceMgr>
 
     public KVResourceLoader LoadAssetAsync(string path, Type assetType = null)
     {
-        path = "Assets/AssetsPackage/" + path;
+//        path = "Assets/AssetsPackage/" + path;
         Debug.Log($"LoadAssetAsync assetPath:{path}");
         var op = Addressables.LoadAssetAsync<object>(path);
 #if UNITY_EDITOR
@@ -38,7 +38,7 @@ public class KVResourceMgr : MonoSingleton<KVResourceMgr>
 
     public KVResourceLoader LoadSceneAsync(string path)
     {
-        path = "Assets/AssetsPackage/" + path;
+//        path = "Assets/AssetsPackage/" + path;
         Debug.Log($"LoadSceneAsync assetPath:{path}");
         var op = Addressables.LoadSceneAsync(path);
         KVResourceLoader loader = new KVResourceLoader(op, path);
@@ -48,7 +48,7 @@ public class KVResourceMgr : MonoSingleton<KVResourceMgr>
     
     public KVResourceLoader UnloadSceneAsync(string path)
     {
-        path = "Assets/AssetsPackage/" + path;
+//        path = "Assets/AssetsPackage/" + path;
         Debug.Log($"UnloadSceneAsync assetPath:{path}");
         KVResourceLoader loader;
         if (loaders.TryGetValue(path, out loader))

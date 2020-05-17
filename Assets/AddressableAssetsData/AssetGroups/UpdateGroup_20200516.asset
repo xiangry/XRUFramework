@@ -10,36 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default
+  m_Name: UpdateGroup_20200516
   m_EditorClassIdentifier: 
-  m_GroupName: Default
+  m_GroupName: UpdateGroup_20200516
   m_Data:
     m_SerializedData: []
-  m_GUID: e161eb77140ade849886a13d776d82ea
+  m_GUID: 0161e09491cb86141ad36bb8b75f3e76
   m_SerializeEntries:
-  - m_GUID: 1833b96eb846c814ea2a3c14011f8502
-    m_Address: material
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Material
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 3dce63b7ba93bdb459f84426f08b245e
-    m_Address: prefabs
+  - m_GUID: 12c828f75a815b44eaf45cda51f45abf
+    m_Address: prefabs/cube.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Prefab
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: d8f4a0d2ceddad4428877acbf7c4af41
-    m_Address: textures
-    m_ReadOnly: 0
-    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e15653ae75e418b4a8cad6d326f9b1f4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b4b35d078cad2204584e235fd224c538, type: 2}
-    - {fileID: 11400000, guid: a0d3a6a75d029c143beb83543691debd, type: 2}
+    - {fileID: 11400000, guid: 642ed442229147442b7becf834227075, type: 2}
+    - {fileID: 11400000, guid: 02b49f660b673ce4b9b2a32d17caabcd, type: 2}

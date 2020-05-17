@@ -72,9 +72,6 @@ public class KVUpdater : MonoBehaviour
     IEnumerator CheckUpdate()
     {
         SetState(EUpdateState.CheckUpdate);
-        //初始化Addressable
-        var init = Addressables.InitializeAsync();
-        yield return init;
         
         var start = DateTime.Now;
         //开始连接服务器检查更新
@@ -122,8 +119,6 @@ public class KVUpdater : MonoBehaviour
     {
         slider.fillAmount = 1;
         text_progress.text = $"下载完成 state:{curState}";
-
-
 
         StartCoroutine(ShowEffect());
 //        DestroyImmediate(gameObject);

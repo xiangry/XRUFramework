@@ -58,7 +58,7 @@ public class KVUpdater : MonoBehaviour
         infoList.Add($"RuntimePath:{Addressables.RuntimePath}\n");
         text_info.text = String.Concat(infoList.ToArray());
 
-        curState = EUpdateState.None;
+        SetState(EUpdateState.None);
         StartCheckUpdate();
     }
     
@@ -71,8 +71,7 @@ public class KVUpdater : MonoBehaviour
 
     IEnumerator CheckUpdate()
     {
-        curState = EUpdateState.CheckUpdate;
-        
+        SetState(EUpdateState.CheckUpdate);
         //初始化Addressable
         var init = Addressables.InitializeAsync();
         yield return init;
@@ -81,7 +80,6 @@ public class KVUpdater : MonoBehaviour
         //开始连接服务器检查更新
         checkHandle = Addressables.CheckForCatalogUpdates(false);
         //检查结束，验证结果
-        curState = EUpdateState.AfterCheck;
         checkHandle.Completed += operationHandle =>
         {
             if (checkHandle.Status == AsyncOperationStatus.Succeeded)
@@ -93,11 +91,11 @@ public class KVUpdater : MonoBehaviour
                     needUpdateCatalogs = catalogs;
                 }
             }
+            SetState(EUpdateState.AfterCheck);
         };   
         yield return checkHandle;
         Debug.Log($"CheckIfNeededUpdate({needUpdate}) use {(DateTime.Now - start).Milliseconds} ms");    
         Addressables.Release(checkHandle);
-
         if (needUpdate)
         {
             //检查到有资源需要更新
@@ -123,19 +121,37 @@ public class KVUpdater : MonoBehaviour
     public void Skip()
     {
         slider.fillAmount = 1;
-        text_progress.text = $"下载完成";
+        text_progress.text = $"下载完成 state:{curState}";
+
+
+
+        StartCoroutine(ShowEffect());
+//        DestroyImmediate(gameObject);
+    }
+
+
+    IEnumerator ShowEffect()
+    {
+        var ao = Addressables.InstantiateAsync("prefabs/cube.prefab");
+        ao.Completed += handle =>
+        {
+            GameObject obj = ao.Result;
+            obj.transform.position = Vector3.zero;
+            obj.transform.localScale = Vector3.one;
+        };
+        yield return ao;
     }
 
     IEnumerator download()
     {
         var start = DateTime.Now;
         //开始下载资源
-        curState = EUpdateState.StartUpdate;
+        SetState(EUpdateState.StartUpdate);
         updateHandle = Addressables.UpdateCatalogs(needUpdateCatalogs, false);
         updateHandle.Completed += handle =>
         {
             //下载完成
-            curState = EUpdateState.AfterUpdate;
+            SetState(EUpdateState.AfterUpdate);
             Debug.Log($"下载完成-------------");
             Debug.Log($"UpdateFinish use {(DateTime.Now - start).Milliseconds} ms");
         }; 
@@ -145,6 +161,7 @@ public class KVUpdater : MonoBehaviour
     }
 
 	void Update () {
+//        Debug.Log($"                 --- curState:({curState})");
         switch (curState)
         {
             case EUpdateState.CheckUpdate:
@@ -152,7 +169,7 @@ public class KVUpdater : MonoBehaviour
                 checkUpdateTime += Time.deltaTime;
                 if (checkUpdateTime > CHECKTIMEMAX)
                 {
-                    curState = EUpdateState.AfterCheck;
+                    SetState(EUpdateState.AfterCheck);
                     StopAllCoroutines();
                     Skip();
                 }
@@ -175,5 +192,11 @@ public class KVUpdater : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    void SetState(EUpdateState state)
+    {
+        Debug.LogError($"====>SetState({state})");
+        curState = state;
     }
 }

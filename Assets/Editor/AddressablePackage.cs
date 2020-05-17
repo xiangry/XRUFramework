@@ -31,9 +31,9 @@ public class AddressablePackage
                     var bundledAssetGroupSchema =
                         (schema as UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema);
                     bundledAssetGroupSchema.BuildPath.SetVariableByName(groupAsset.Settings,
-                        AddressableAssetSettings.kRemoteBuildPath);
+                        AddressableAssetSettings.kLocalBuildPath);
                     bundledAssetGroupSchema.LoadPath.SetVariableByName(groupAsset.Settings,
-                        AddressableAssetSettings.kRemoteLoadPath);
+                        AddressableAssetSettings.kLocalLoadPath);
                 }
             }
         }

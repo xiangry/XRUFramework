@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: UpdateGroup_20200516
+  m_Name: UpdateGroup_20200517
   m_EditorClassIdentifier: 
-  m_GroupName: UpdateGroup_20200516
+  m_GroupName: UpdateGroup_20200517
   m_Data:
     m_SerializedData: []
-  m_GUID: 0161e09491cb86141ad36bb8b75f3e76
+  m_GUID: 4605a1c01ffec1d448f66b08ab9c4dc8
   m_SerializeEntries:
   - m_GUID: 12c828f75a815b44eaf45cda51f45abf
     m_Address: prefabs/cube.prefab
@@ -28,5 +28,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: e15653ae75e418b4a8cad6d326f9b1f4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 642ed442229147442b7becf834227075, type: 2}
-    - {fileID: 11400000, guid: 02b49f660b673ce4b9b2a32d17caabcd, type: 2}
+    - {fileID: 11400000, guid: a8bff5af9d0b7a04cb30c580f6b9fcf6, type: 2}
+    - {fileID: 11400000, guid: 593a15ab66bc3604ba1cd3dc41c6ac6c, type: 2}

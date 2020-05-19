@@ -32,5 +32,6 @@ public class GameLaunch : MonoBehaviour
         GameObject obj = loader.asset as GameObject;
         GameObject launch = Instantiate(obj, rootLayer.transform);
         updater = launch.AddComponent<KVUpdater>();
+        loader.Dispose();
     }
 }

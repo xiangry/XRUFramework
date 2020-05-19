@@ -127,14 +127,34 @@ public class KVUpdater : MonoBehaviour
 
     IEnumerator ShowEffect()
     {
-        var ao = Addressables.InstantiateAsync("prefabs/cube.prefab");
-        ao.Completed += handle =>
         {
-            GameObject obj = ao.Result;
-            obj.transform.position = Vector3.zero;
-            obj.transform.localScale = Vector3.one;
-        };
-        yield return ao;
+            var ao = Addressables.InstantiateAsync("prefabs/cube.prefab");
+            ao.Completed += handle =>
+            {
+                GameObject obj = ao.Result;
+                obj.transform.position = Vector3.zero;
+                obj.transform.localScale = Vector3.one;
+            };
+            yield return ao;
+        }
+
+        Addressables.ReleaseInstance(gameObject);
+//        Addressables.ClearResourceLocators();
+        Addressables.ClearDependencyCacheAsync("prefabs/launch.prefab");
+        {
+            var rootLayer = GameObject.Find("LaunchLayer").GetComponent<Canvas>();
+            var loader = KVResourceMgr.Instance.LoadAssetAsync("prefabs/launch.prefab");
+            yield return loader;
+//            ao.Completed += handle =>
+//            {
+                GameObject obj = loader.asset as GameObject;
+                obj = Instantiate(obj, rootLayer.transform);
+                obj.transform.localPosition = Vector3.zero;
+                obj.transform.localScale = Vector3.one;
+//            };
+//            yield return ao;
+        }        DestroyImmediate(gameObject);
+
     }
 
     IEnumerator download()

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: e161eb77140ade849886a13d776d82ea
+  m_DefaultGroup: 94d869ae23b2f8d46850623f75ff9362
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 1
   m_DisableCatalogUpdateOnStart: 1
@@ -21,12 +21,11 @@ MonoBehaviour:
     m_Id: dfda3ed61b68371438ff9b8a9c0d4e28
   m_RemoteCatalogLoadPath:
     m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
-  m_overridePlayerVersion: 
+  m_overridePlayerVersion: 1
   m_GroupAssets:
   - {fileID: 11400000, guid: 49efc15ea35fa0944a1e9b09b5b1685e, type: 2}
+  - {fileID: 11400000, guid: f008394075e687543928abce1a86be96, type: 2}
   - {fileID: 11400000, guid: 0a1bdc33b390b09499a42b5a91dafbc2, type: 2}
-  - {fileID: 11400000, guid: 7ae0556bf463e1c4fa9bd01d776b1e5f, type: 2}
-  - {fileID: 11400000, guid: 6812b385af6f003449ae71f7cc58a81c, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -45,7 +44,7 @@ MonoBehaviour:
       - m_Id: ac703c166dea5944d92dbcdc6e733453
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: dfda3ed61b68371438ff9b8a9c0d4e28
-        m_Value: ServerData/[BuildTarget]
+        m_Value: '[Application.dataPath/../../../sot/update_server]/[BuildTarget]'
       - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
         m_Value: http://127.0.0.1:8448/[BuildTarget]
     - m_InheritedParent: 
@@ -110,7 +109,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64;ServerData/StandaloneWindows64
+          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

@@ -15,31 +15,11 @@ MonoBehaviour:
   m_GroupName: Default
   m_Data:
     m_SerializedData: []
-  m_GUID: e161eb77140ade849886a13d776d82ea
-  m_SerializeEntries:
-  - m_GUID: 1833b96eb846c814ea2a3c14011f8502
-    m_Address: material
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Material
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 3dce63b7ba93bdb459f84426f08b245e
-    m_Address: prefabs
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Prefab
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: d8f4a0d2ceddad4428877acbf7c4af41
-    m_Address: textures
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+  m_GUID: 94d869ae23b2f8d46850623f75ff9362
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e15653ae75e418b4a8cad6d326f9b1f4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b4b35d078cad2204584e235fd224c538, type: 2}
-    - {fileID: 11400000, guid: a0d3a6a75d029c143beb83543691debd, type: 2}
+    - {fileID: 11400000, guid: 2ebc1917f8607e540a0d1b848625e9fa, type: 2}
+    - {fileID: 11400000, guid: 738e48d34e259d34e9c015b086de5c21, type: 2}

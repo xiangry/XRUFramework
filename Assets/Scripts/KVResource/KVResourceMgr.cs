@@ -5,14 +5,7 @@ using UnityEngine.AddressableAssets;
 
 public class KVResourceMgr : MonoSingleton<KVResourceMgr>
 {
-    
     Dictionary<string, KVResourceLoader> loaders = new Dictionary<string, KVResourceLoader>();
-
-
-    void Init()
-    {
-//        Addressables.
-    }
 
     public KVResourceLoader LoadAssetAsync(string path, Type assetType = null)
     {

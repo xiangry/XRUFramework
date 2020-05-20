@@ -12,7 +12,7 @@ namespace DaVikingCode.AssetPacker {
 
 	public class AssetPacker : MonoBehaviour {
 
-		public UnityEvent<string> OnProcessCompleted;
+		public UnityAction<string> OnProcessCompleted;
 		public float pixelsPerUnit = 100.0f;
 
 		public bool useCache = false;
@@ -35,6 +35,14 @@ namespace DaVikingCode.AssetPacker {
 
 			foreach (string file in files)
 				AddTextureToPack(file);
+		}
+		
+		public void AddTextureToPack(string name, Texture2D texture2D, string customID = null)
+		{
+
+			Sprite spr;
+//			textures.Add(texture2D);
+//			images.Add(name);
 		}
 
 		public void Process(bool allow4096Textures = false) {
@@ -164,7 +172,13 @@ namespace DaVikingCode.AssetPacker {
 					}
 
 					foreach (TextureAsset textureAsset in textureAssets)
-						mSprites.Add(textureAsset.name, Sprite.Create(texture, new Rect(textureAsset.x, textureAsset.y, textureAsset.width, textureAsset.height), Vector2.zero, pixelsPerUnit, 0, SpriteMeshType.FullRect));
+					{
+						if (!mSprites.ContainsKey(textureAsset.name))
+						{
+							mSprites.Add(textureAsset.name, Sprite.Create(texture, new Rect(textureAsset.x, textureAsset.y, textureAsset.width, textureAsset.height), Vector2.zero, pixelsPerUnit, 0, SpriteMeshType.FullRect));
+						}
+					}
+
 				}
 
 			}
@@ -194,7 +208,10 @@ namespace DaVikingCode.AssetPacker {
 
 						Texture2D t = DownloadHandlerTexture.GetContent(textureRequest); // prevent creating a new Texture2D each time.
 						foreach (TextureAsset textureAsset in textureAssets.assets)
+						if (!mSprites.ContainsKey(textureAsset.name))
+						{
 							mSprites.Add(textureAsset.name, Sprite.Create(t, new Rect(textureAsset.x, textureAsset.y, textureAsset.width, textureAsset.height), Vector2.zero, pixelsPerUnit, 0, SpriteMeshType.FullRect));
+						}
 					}
 					textureRequest.Dispose();
 					jsonRequest.Dispose();

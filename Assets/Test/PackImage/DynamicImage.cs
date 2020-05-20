@@ -7,18 +7,25 @@ using UnityEngine.UI;
 public class DynamicImage : Image
 {
     public string cacheTexture = "Temp";
-    
-    // Start is called before the first frame update
-    void Start()
+    public string imagePath = "";
+
+    void Awake()
     {
-        sprite = DynamicAssetManager.instance.GetAssetSpriteByName(cacheTexture, "walking0003");
+        SetTexturePath(imagePath);
+        base.Awake();
     }
 
-    void SyncSprite()
-    {
-        sprite = DynamicAssetManager.instance.GetAssetSpriteByName(cacheTexture, "walking0003");
-        
-        
-    }
 
+    public void SetTexturePath(string path)
+    {
+        if (Application.isPlaying)
+        {
+            Debug.Log($"DynamicImage  {path}");
+            DynamicAssetManager.Instance.AddAssetSpriteByName(cacheTexture, path, sprite =>
+            {
+                Debug.Log($"AddAssetSpriteByName === {sprite}");
+                this.sprite = sprite;
+            });
+        }
+    }
 }

@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc77607c2a62ef48b8f7dec55cc6d91, type: 3}
+  m_Name: AnalyzeRuleData
+  m_EditorClassIdentifier: 
+  m_RuleToResults:
+  - RuleName: Check Duplicate Bundle Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Check Resources to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Check Resources to Addressable Duplicate Dependencies - No issues
+        found.
+      m_Severity: 0
+  - RuleName: Check Scene to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Check Scene to Addressable Duplicate Dependencies - No issues
+        found.
+      m_Severity: 0
+  - RuleName: Check Sprite Atlas to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Build Bundle Layout
+    Results:
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/material/green.mat
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/material/red.mat
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/material/yellow.mat
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/cube
+        1.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/cube
+        2.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/cube
+        3.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/cube.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/launch.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/prefabs/yellow.prefab
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/white.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0001.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0002.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0003.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0004.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0005.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0006.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0007.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0008.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0009.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0010.png
+      m_Severity: 0
+    - m_ResultName: data_assets_all.bundle:Explicit:Assets/AssetsPackage/textures/pack_imgs/walking0011.png
+      m_Severity: 0
+    - m_ResultName: shaders_assets_all.bundle:Explicit:Assets/AssetsPackage/shaders/DynamicAtlasGraphicBlitShader.shader
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/test.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100001.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100002.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100003.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100004.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100005.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100006.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100007.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100008.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100009.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100010.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100011.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100012.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100015.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100016.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100017.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100018.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100019.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/BUFF/12100020.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Essence/12000300.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Essence/12000301.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Essence/12000302.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Essence/12000303.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Essence/12000304.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000290.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000291.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000292.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000293.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000294.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000295.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000296.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000297.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000298.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FineSand/12000299.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000240.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000241.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000242.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000243.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000244.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000245.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000246.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000247.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000248.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/FlowersAndFruits/12000249.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000250.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000251.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000252.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000253.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000254.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000255.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000256.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000257.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000258.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000259.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000405.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Herb/12000406.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000280.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000281.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000282.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000283.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000284.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000285.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000286.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000287.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000288.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/ore/12000289.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000260.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000261.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000262.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000263.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000264.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000265.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000266.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000267.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000268.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000269.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000407.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/RiverFresh/12000408.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000270.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000271.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000272.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000273.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000274.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000275.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000276.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000277.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000278.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000279.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/item/Treasure/12000409.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000066.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000068.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000069.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000070.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000071.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000075.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000076.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000077.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000078.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000079.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000080.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000081.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000082.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000083.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000084.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000085.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000086.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000087.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000088.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000197.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000830.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000831.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/littleMap/11000832.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000683.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000684.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000685.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000686.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000687.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000688.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000689.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000690.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000691.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000692.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000693.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000694.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000695.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/NPC/11000696.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100008.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100009.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100107.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100108.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100117.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100118.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100119.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100120.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100152.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100153.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100154.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100155.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100156.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100157.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100158.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100159.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100160.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100161.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11100162.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11200001.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11200002.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11200003.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11200004.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220001.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220002.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220003.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220004.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220005.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220006.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220007.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220008.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220009.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220010.png
+      m_Severity: 0
+    - m_ResultName: resources_assets_all.bundle:Explicit:Assets/AssetsPackage/testres/skill/11220011.png
+      m_Severity: 0

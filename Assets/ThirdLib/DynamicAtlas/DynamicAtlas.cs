@@ -281,8 +281,9 @@ public class DynamicAtlas
             var ao = Addressables.LoadAssetAsync<Texture2D>(data.path);
             ao.Completed += handle =>
             {
-                Texture2D texture2D = ao.Result as Texture2D;
-                OnRenderTexture(data.path, texture2D);
+                Texture2D texture2D = handle.Result as Texture2D;
+                OnRenderTexture(path, texture2D);
+                Addressables.Release(handle);
             };       
         }
     }

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: shaders_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: b9137b6f4a5e039468178cc53f90f1de, type: 2}
-  m_StaticContent: 0
+  m_StaticContent: 1

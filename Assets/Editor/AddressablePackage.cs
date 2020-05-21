@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
+using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
  
@@ -19,21 +20,16 @@ public class AddressablePackage
             {
                 var schema = groupAsset.Schemas[i];
                 Debug.Log($"                ===> {schema.name}");
-
-                if (schema is UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema)
+                if (schema is ContentUpdateGroupSchema)
                 {
-                    (schema as UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema)
-                        .StaticContent = true;
+                    var contentUpdateGroupSchema = schema as ContentUpdateGroupSchema;
+                    contentUpdateGroupSchema.StaticContent = true;
                 }
-                else if (schema is UnityEditor.AddressableAssets.Settings.GroupSchemas
-                    .BundledAssetGroupSchema)
+                else if (schema is BundledAssetGroupSchema)
                 {
-                    var bundledAssetGroupSchema =
-                        (schema as UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema);
-                    bundledAssetGroupSchema.BuildPath.SetVariableByName(groupAsset.Settings,
-                        AddressableAssetSettings.kLocalBuildPath);
-                    bundledAssetGroupSchema.LoadPath.SetVariableByName(groupAsset.Settings,
-                        AddressableAssetSettings.kLocalLoadPath);
+                    var bundledAssetGroupSchema = (schema as BundledAssetGroupSchema);
+                    bundledAssetGroupSchema.BuildPath.SetVariableByName(groupAsset.Settings,AddressableAssetSettings.kLocalBuildPath);
+                    bundledAssetGroupSchema.LoadPath.SetVariableByName(groupAsset.Settings,AddressableAssetSettings.kLocalLoadPath);
                 }
             }
         }
@@ -42,6 +38,33 @@ public class AddressablePackage
         AssetDatabase.Refresh();
     }
 
+    [MenuItem("AddressableEditor/SetGroup => Remote")]
+    public static void SetRemoteContentGroup()
+    {
+        foreach (AddressableAssetGroup groupAsset in Selection.objects)
+        {
+            for (int i = 0; i < groupAsset.Schemas.Count; i++)
+            {
+                var schema = groupAsset.Schemas[i];
+                Debug.Log($"                ===> {schema.name}");
+                if (schema is ContentUpdateGroupSchema)
+                {
+                    var contentUpdateGroupSchema = schema as ContentUpdateGroupSchema;
+                    contentUpdateGroupSchema.StaticContent = true;
+                }
+                else if (schema is BundledAssetGroupSchema)
+                {
+                    var bundledAssetGroupSchema = (schema as BundledAssetGroupSchema);
+                    bundledAssetGroupSchema.BuildPath.SetVariableByName(groupAsset.Settings, AddressableAssetSettings.kRemoteBuildPath);
+                    bundledAssetGroupSchema.LoadPath.SetVariableByName(groupAsset.Settings,AddressableAssetSettings.kRemoteLoadPath);
+                }
+            }
+        }
+        
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+    }
+    
     [MenuItem("AddressableEditor/Build All Content")]
     public static void BuildContent()
     {

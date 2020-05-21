@@ -22,21 +22,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Material
-    m_MainAsset: {fileID: 102900000, guid: 1833b96eb846c814ea2a3c14011f8502, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: 1833b96eb846c814ea2a3c14011f8502, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 3dce63b7ba93bdb459f84426f08b245e
     m_Address: prefabs
     m_ReadOnly: 0
     m_SerializedLabels:
     - Prefab
-    m_MainAsset: {fileID: 102900000, guid: 3dce63b7ba93bdb459f84426f08b245e, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: 3dce63b7ba93bdb459f84426f08b245e, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: d8f4a0d2ceddad4428877acbf7c4af41
     m_Address: textures
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 102900000, guid: d8f4a0d2ceddad4428877acbf7c4af41, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: d8f4a0d2ceddad4428877acbf7c4af41, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e15653ae75e418b4a8cad6d326f9b1f4, type: 2}
   m_SchemaSet:

@@ -10,6 +10,9 @@ namespace Test.ResManager
         private GUIStyle _btnGuiStyle;
         private GUIStyle _textFieldGuiStyle;
 
+        private AudioSource _audioSource;
+        
+
         private string inputRes = "sound/prefabs/systemsot_bgm";
         
         private string[] _prefabs = new[]
@@ -25,7 +28,8 @@ namespace Test.ResManager
         {
             _objPool = new GameObject("__OBJECT_POOL__").transform;
             DontDestroyOnLoad(gameObject);
-            
+            DontDestroyOnLoad(new GameObject("AudioManager"));
+            InitAudioSource();
         }
         
         private void OnGUI()
@@ -92,7 +96,7 @@ namespace Test.ResManager
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("测试音效", _btnGuiStyle))
             {
-                TestSound("sound/prefabs/systemsot_bgm");
+                TestSound("sound/_clip/01.mp3");
             }
             GUILayout.EndHorizontal();
         }
@@ -125,10 +129,11 @@ namespace Test.ResManager
                 }
             });
         }
-        
-        void TestSound(string path)
+
+        void InitAudioSource()
         {
-            KVResourceMgr.Instance.InstanceObjectAsync(path, _objPool.transform, obj =>
+            GameObject audioManager = GameObject.Find("AudioManager");
+            KVResourceMgr.Instance.InstanceObjectAsync("sound/normal_sound", audioManager.transform, obj =>
             {
                 GameObject gameObject = obj as GameObject;
                 if (gameObject)
@@ -138,8 +143,26 @@ namespace Test.ResManager
                     gameObject.transform.localScale = Vector3.one;
                 }
 
-                AudioSource audioSource = gameObject.GetComponent<AudioSource>();
-                audioSource.Play();
+                _audioSource = gameObject.GetComponent<AudioSource>();
+                DontDestroyOnLoad(gameObject);
+            });
+        }
+        
+        void TestSound(string path)
+        {
+            if (!_audioSource)
+            {
+                Debug.Log("audio source not loaded");
+                return;
+            }
+            KVResourceMgr.Instance.LoadAssetAsync(path,obj1 =>
+            {
+                AudioClip clip = obj1 as AudioClip;
+                if (clip)
+                {
+                    _audioSource.clip = clip;
+                    _audioSource.Play();
+                }
             });
         }
     }

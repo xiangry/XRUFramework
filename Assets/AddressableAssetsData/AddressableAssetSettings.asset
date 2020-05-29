@@ -128,7 +128,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Application.dataPath/../Build/local/StandaloneWindows64
+          m_Data: Application.dataPath/../../../sot/update_server/StandaloneWindows64;Application.dataPath/../Build/local/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

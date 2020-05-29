@@ -15,80 +15,70 @@ MonoBehaviour:
   m_GroupName: Prefab
   m_Data:
     m_SerializedData: []
-  m_GUID: 7face43b27fb4524c9a155c6c04b48e7
+  m_GUID: 67b66ac065231234c89bcc40749df70d
   m_SerializeEntries:
   - m_GUID: 12c828f75a815b44eaf45cda51f45abf
-    m_Address: prefabs/cube4
+    m_Address: prefabs/cube4.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1ce6c648a810fde4daf9926e79375d96
-    m_Address: prefabs/scene/level1
+    m_Address: prefabs/scene/level1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 29ab5fe3ab74c0e4c90583fdd3e957a7
-    m_Address: prefabs/launch
+    m_Address: prefabs/launch.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2b2b2e8e1680e444bab99553b467e9dd
-    m_Address: prefabs/scene/level2
+    m_Address: prefabs/scene/level2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 52ac0e56f26c7ce49a431601aed67d29
-    m_Address: prefabs/scene/level3
+    m_Address: prefabs/scene/level3.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7cc5c8a318e17ce48ac14bb3c035f208
-    m_Address: prefabs/scene/level4
+    m_Address: prefabs/scene/level4.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 5413552036851941174, guid: 7cc5c8a318e17ce48ac14bb3c035f208,
-      type: 3}
-    m_TargetAsset: {fileID: 5413552036851941174, guid: 7cc5c8a318e17ce48ac14bb3c035f208,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 9689d161eed643e4b9f5f3e2a2990bd4
-    m_Address: prefabs/scene/level5
+    m_Address: prefabs/scene/level5.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 6480577389760732006, guid: 9689d161eed643e4b9f5f3e2a2990bd4,
-      type: 3}
-    m_TargetAsset: {fileID: 6480577389760732006, guid: 9689d161eed643e4b9f5f3e2a2990bd4,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: c7e1bc915c994c040a278d328a5fde0e
-    m_Address: prefabs/cube2
+    m_Address: prefabs/cube2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 1306855420875168166, guid: c7e1bc915c994c040a278d328a5fde0e,
-      type: 3}
-    m_TargetAsset: {fileID: 1306855420875168166, guid: c7e1bc915c994c040a278d328a5fde0e,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ca1263aa5b0529540bc933d4e9b62850
-    m_Address: prefabs/cube1
+    m_Address: prefabs/cube1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 1306855420875168166, guid: ca1263aa5b0529540bc933d4e9b62850,
-      type: 3}
-    m_TargetAsset: {fileID: 1306855420875168166, guid: ca1263aa5b0529540bc933d4e9b62850,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: d2f549765ed30e54baf1d84126837e7b
-    m_Address: prefabs/cube3
+    m_Address: prefabs/cube3.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 1306855420875168166, guid: d2f549765ed30e54baf1d84126837e7b,
-      type: 3}
-    m_TargetAsset: {fileID: 1306855420875168166, guid: d2f549765ed30e54baf1d84126837e7b,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: e064d7a5c93d43e4aa78de26db40a2cc
-    m_Address: prefabs/yellow
+    m_Address: prefabs/yellow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

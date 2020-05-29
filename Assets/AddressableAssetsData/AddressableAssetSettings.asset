@@ -26,13 +26,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 49efc15ea35fa0944a1e9b09b5b1685e, type: 2}
   - {fileID: 11400000, guid: f008394075e687543928abce1a86be96, type: 2}
   - {fileID: 11400000, guid: 82cf40693f73754459a7132081d2a8f9, type: 2}
-  - {fileID: 11400000, guid: 56b4971a43988cd46a2cee6d798f640d, type: 2}
   - {fileID: 11400000, guid: 30c8e28b333e57840bb6acd4112b7e3d, type: 2}
   - {fileID: 11400000, guid: 7626396053ae0b94e89f24f85cd248b4, type: 2}
   - {fileID: 11400000, guid: babd9b42e19a3f043bd569e42728dfac, type: 2}
+  - {fileID: 11400000, guid: 56b4971a43988cd46a2cee6d798f640d, type: 2}
   - {fileID: 11400000, guid: 837276aa59ce0c04b97be7424f80e821, type: 2}
-  - {fileID: 11400000, guid: 5d329f30a30ee414fb328f78ad5f4884, type: 2}
-  - {fileID: 11400000, guid: beee5d7c45620084a9ee2a62689fa661, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -47,9 +45,9 @@ MonoBehaviour:
       - m_Id: e7fa94d13134d2f47b05b25772c5936d
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: c451fd5ac317b8741bc9b3713b81b1de
-        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+        m_Value: '[Application.dataPath/../Build]/local/[BuildTarget]'
       - m_Id: ac703c166dea5944d92dbcdc6e733453
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+        m_Value: '[Application.dataPath/../Build]/local/[BuildTarget]'
       - m_Id: dfda3ed61b68371438ff9b8a9c0d4e28
         m_Value: '[Application.dataPath/../../../sot/update_server]/[BuildTarget]'
       - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
@@ -68,6 +66,20 @@ MonoBehaviour:
         m_Value: '[Application.dataPath/../AddressableBuild]/server/[BuildTarget]'
       - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
         m_Value: http://10.0.10.103:8448/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: c6271c45bdf57a64588730da66d06a6a
+      m_ProfileName: New Profile
+      m_Values:
+      - m_Id: e7fa94d13134d2f47b05b25772c5936d
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: c451fd5ac317b8741bc9b3713b81b1de
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: ac703c166dea5944d92dbcdc6e733453
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: dfda3ed61b68371438ff9b8a9c0d4e28
+        m_Value: '[Application.dataPath/../../../sot/update_server]/[BuildTarget]'
+      - m_Id: 51a400cbdbab9e54db3a3a7d8d014bdb
+        m_Value: http://127.0.0.1:8448/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: e7fa94d13134d2f47b05b25772c5936d
       m_Name: BuildTarget
@@ -116,7 +128,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Application.dataPath/../../../sot/update_server/StandaloneWindows64;Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64
+          m_Data: Application.dataPath/../Build/local/StandaloneWindows64
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

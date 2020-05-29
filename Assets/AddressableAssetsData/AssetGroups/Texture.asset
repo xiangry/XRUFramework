@@ -15,868 +15,868 @@ MonoBehaviour:
   m_GroupName: Texture
   m_Data:
     m_SerializedData: []
-  m_GUID: 1304ff9342a2978458313d775c737fd7
+  m_GUID: b0807c17e96780b4097a8d48922e4900
   m_SerializeEntries:
   - m_GUID: 02f279afdfb6d36448734eb12541435b
-    m_Address: testres/littleMap/11000077
+    m_Address: testres/littleMap/11000077.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0437d70243f3c0147863505573c6169e
-    m_Address: testres/NPC/11000687
+    m_Address: testres/NPC/11000687.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 04a3c68362da35a47936a482b1abd1c5
-    m_Address: textures/pack_imgs/walking0010
+    m_Address: textures/pack_imgs/walking0010.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 05db72720d124324183c42394c7d3e8b
-    m_Address: textures/11100117
+    m_Address: textures/11100117.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0614c4848fed2be40972dadce0d1a569
-    m_Address: testres/littleMap/11000075
+    m_Address: testres/littleMap/11000075.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 06235d36012587e42a1a846b573a9dbd
-    m_Address: testres/item/Herb/12000251
+    m_Address: testres/item/Herb/12000251.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 06a3f11d88c3cf543b84b8be5be1e210
-    m_Address: testres/BUFF/12100006
+    m_Address: testres/BUFF/12100006.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0a585792a3c786f4098db668b5bafc61
-    m_Address: testres/NPC/11000691
+    m_Address: testres/NPC/11000691.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0d3507e38229d5449bc720d200327dec
-    m_Address: testres/BUFF/12100020
+    m_Address: testres/BUFF/12100020.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0ee68eab71f0a3149ae6ecc704b8adad
-    m_Address: textures/pack_imgs/walking0006
+    m_Address: textures/pack_imgs/walking0006.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 117efd69b875cd642ace5ae99303667c
-    m_Address: testres/item/Herb/12000406
+    m_Address: testres/item/Herb/12000406.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 134f4eb781d4a7d4296573f2402b5df2
-    m_Address: testres/item/FlowersAndFruits/12000246
+    m_Address: testres/item/FlowersAndFruits/12000246.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1450b45c0aa4db14da8d26c21e1ef138
-    m_Address: testres/test
+    m_Address: testres/test.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 15582484bff1c9d47862708ba3f06e4b
-    m_Address: textures/pack_imgs/walking0002
+    m_Address: textures/pack_imgs/walking0002.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1631b7230242b584f8aa3a689918a058
-    m_Address: testres/BUFF/12100017
+    m_Address: testres/BUFF/12100017.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1f2c6e257a354e0488b823da914b236d
-    m_Address: testres/item/Herb/12000258
+    m_Address: testres/item/Herb/12000258.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1f8c7ea5acee7b848a6e7bb02e9b0735
-    m_Address: testres/item/RiverFresh/12000261
+    m_Address: testres/item/RiverFresh/12000261.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 216230e8e36f363498fc3f062cc9163f
-    m_Address: testres/item/Herb/12000259
+    m_Address: testres/item/Herb/12000259.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2715aa9132a5c1a40ab5d0da3d9a3c02
-    m_Address: testres/item/Herb/12000255
+    m_Address: testres/item/Herb/12000255.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 28362a2413834b4489ab17b589aee1c1
-    m_Address: testres/NPC/11000692
+    m_Address: testres/NPC/11000692.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 289aef42b20fdc1428d44eadce3feffa
-    m_Address: testres/littleMap/11000085
+    m_Address: testres/littleMap/11000085.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 28d8cbdf3bd6e044ba74bee3d762c9e4
-    m_Address: testres/item/FlowersAndFruits/12000240
+    m_Address: testres/item/FlowersAndFruits/12000240.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2b60c0bed9cab5541a2fadcfcf670366
-    m_Address: testres/littleMap/11000080
+    m_Address: testres/littleMap/11000080.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2ecdb431f18e6e347b47986c7badea79
-    m_Address: testres/BUFF/12100011
+    m_Address: testres/BUFF/12100011.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 30da60924027dbd409540ab65b420e5e
-    m_Address: testres/BUFF/12100003
+    m_Address: testres/BUFF/12100003.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 318b0100617ab3b44962216463c584d7
-    m_Address: testres/littleMap/11000079
+    m_Address: testres/littleMap/11000079.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 320d0d63816fd5c48a2354dd1beb5fb5
-    m_Address: testres/item/ore/12000285
+    m_Address: testres/item/ore/12000285.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 32d29e141e6c4d344846311efa1d0b2b
-    m_Address: testres/item/RiverFresh/12000263
+    m_Address: testres/item/RiverFresh/12000263.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 3398e3ff8bcc14f46a25c420e14e7a03
-    m_Address: testres/item/Herb/12000253
+    m_Address: testres/item/Herb/12000253.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 33f1bb39af4b2924da23f87a4d1a8ff7
-    m_Address: testres/skill/11100008
+    m_Address: testres/skill/11100008.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 3e8cb92de2189184e82ba39740322ca0
-    m_Address: testres/NPC/11000686
+    m_Address: testres/NPC/11000686.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4089ddad455cb8846a46d5337a1bc519
-    m_Address: testres/item/FineSand/12000290
+    m_Address: testres/item/FineSand/12000290.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 429d0222631018347ab90b5396a5f6b5
-    m_Address: testres/BUFF/12100019
+    m_Address: testres/BUFF/12100019.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4302856a830939d42959b2a0db5760ba
-    m_Address: testres/littleMap/11000086
+    m_Address: testres/littleMap/11000086.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 45f5afc549c53ac4aa0d68137476d313
-    m_Address: testres/BUFF/12100009
+    m_Address: testres/BUFF/12100009.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4682f5865d6e15342b5c3e11cf39b530
-    m_Address: testres/item/Herb/12000250
+    m_Address: testres/item/Herb/12000250.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 49debc08f086a7a4c8bc4d2ca62e737c
-    m_Address: testres/item/RiverFresh/12000269
+    m_Address: testres/item/RiverFresh/12000269.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4a17325300d633c4783a1f7c877f14aa
-    m_Address: testres/item/Herb/12000252
+    m_Address: testres/item/Herb/12000252.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4a287fac50a91e747ae35bc7e3e5b388
-    m_Address: testres/item/Treasure/12000276
+    m_Address: testres/item/Treasure/12000276.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4bbe29774b20bfa4b936eb3dc83cc769
-    m_Address: testres/BUFF/12100016
+    m_Address: testres/BUFF/12100016.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4f7ea7c422ef93f4bbe26b2f49a5081e
-    m_Address: testres/item/Treasure/12000273
+    m_Address: testres/item/Treasure/12000273.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5107ab7155c7f114497697ab04cea539
-    m_Address: testres/NPC/11000694
+    m_Address: testres/NPC/11000694.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 51b656632cd3ffd47939849b18b16c08
-    m_Address: testres/NPC/11000688
+    m_Address: testres/NPC/11000688.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 55d267138aa4a814dabe304d70b59c20
-    m_Address: testres/littleMap/11000832
+    m_Address: testres/littleMap/11000832.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5680b51b25206fe4787944dfcf8fd4b3
-    m_Address: testres/item/FineSand/12000293
+    m_Address: testres/item/FineSand/12000293.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5708495f6935f1c4fb60ac42ca296139
-    m_Address: testres/item/FlowersAndFruits/12000242
+    m_Address: testres/item/FlowersAndFruits/12000242.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 57c4f79de9fe73644a22fc484c720e94
-    m_Address: textures/pack_imgs/walking0007
+    m_Address: textures/pack_imgs/walking0007.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 58837f82e5b8ea64f8dcf1d755c2697f
-    m_Address: testres/item/RiverFresh/12000408
+    m_Address: testres/item/RiverFresh/12000408.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 58ab07fd83391ee42bee9820614bd6bf
-    m_Address: testres/NPC/11000685
+    m_Address: testres/NPC/11000685.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5a3f5ddcf47b0e743b969d53a4d22a13
-    m_Address: testres/littleMap/11000088
+    m_Address: testres/littleMap/11000088.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5bdb5d0ba4148a34e820c6bad837acc0
-    m_Address: testres/item/ore/12000280
+    m_Address: testres/item/ore/12000280.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6217943d1e4a28b4d999aa12e214d2c0
-    m_Address: testres/item/FineSand/12000292
+    m_Address: testres/item/FineSand/12000292.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 62e1abc34459f4a4c9838b29035c905f
-    m_Address: testres/item/Treasure/12000271
+    m_Address: testres/item/Treasure/12000271.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6616d0dd9207e174e95776eae93d6f7d
-    m_Address: testres/item/FineSand/12000291
+    m_Address: testres/item/FineSand/12000291.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 68a5e6fcb580ecf4eaf294ce7af60f54
-    m_Address: testres/NPC/11000695
+    m_Address: testres/NPC/11000695.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6b40cf39fb7a38b48b1b931a0c5e5a0c
-    m_Address: testres/littleMap/11000066
+    m_Address: testres/littleMap/11000066.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6bbc143c708fa3c4c860bd310ab1ea0b
-    m_Address: testres/NPC/11000696
+    m_Address: testres/NPC/11000696.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6c6ad2818985b3641a776c4a53e50c37
-    m_Address: testres/item/Treasure/12000275
+    m_Address: testres/item/Treasure/12000275.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6d71409eee2240d419abda1bbaab67cd
-    m_Address: testres/BUFF/12100002
+    m_Address: testres/BUFF/12100002.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 70c3ba72060771843892b1f2df7151f1
-    m_Address: testres/littleMap/11000197
+    m_Address: testres/littleMap/11000197.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 712a821febd85d647839c2abfd5bcda8
-    m_Address: testres/littleMap/11000070
+    m_Address: testres/littleMap/11000070.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 76d5358c793438243b74588ea14688b6
-    m_Address: testres/BUFF/12100005
+    m_Address: testres/BUFF/12100005.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 773a99b8b3e710344a685244cb92d6dc
-    m_Address: testres/skill/11200002
+    m_Address: testres/skill/11200002.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7847afce2bc75314a8a01c0d4aa4bc1c
-    m_Address: textures/pack_imgs/walking0005
+    m_Address: textures/pack_imgs/walking0005.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 79fd024ff3c1217469091f942eb3566e
-    m_Address: testres/item/RiverFresh/12000264
+    m_Address: testres/item/RiverFresh/12000264.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7a4eab7954ccbe34294c843d4dfca196
-    m_Address: testres/item/RiverFresh/12000267
+    m_Address: testres/item/RiverFresh/12000267.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7ac88bdb9af1305468fc919490926e24
-    m_Address: testres/item/FlowersAndFruits/12000245
+    m_Address: testres/item/FlowersAndFruits/12000245.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7cac43595d2306f4f8ce5d1be5e5041e
-    m_Address: testres/item/FineSand/12000295
+    m_Address: testres/item/FineSand/12000295.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7fa853f085690d74f974cd12a9241c4e
-    m_Address: textures/pack_imgs/walking0011
+    m_Address: textures/pack_imgs/walking0011.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 84b0bfb76b6f8f84abe9f8d0f367854c
-    m_Address: testres/item/FineSand/12000294
+    m_Address: testres/item/FineSand/12000294.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8770cfab62abbba43a4016c673733edf
-    m_Address: testres/littleMap/11000081
+    m_Address: testres/littleMap/11000081.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 878cafc93c1aaa84e97bbea830d587ff
-    m_Address: testres/skill/11100108
+    m_Address: testres/skill/11100108.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 88ed6b45d1499cd48951042717a91110
-    m_Address: testres/BUFF/12100012
+    m_Address: testres/BUFF/12100012.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 89e367dd45facd24d80040bad8d86583
-    m_Address: testres/item/FlowersAndFruits/12000243
+    m_Address: testres/item/FlowersAndFruits/12000243.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8a06969e0d274834e8ddad483f87b522
-    m_Address: testres/littleMap/11000831
+    m_Address: testres/littleMap/11000831.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8d91778339bfaca45b62d4e1ccec83ba
-    m_Address: testres/BUFF/12100007
+    m_Address: testres/BUFF/12100007.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 94a5ee38eba4346469e4a25af7c69a89
-    m_Address: testres/NPC/11000689
+    m_Address: testres/NPC/11000689.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9533343531ca20d4180b1745c2544459
-    m_Address: testres/item/RiverFresh/12000260
+    m_Address: testres/item/RiverFresh/12000260.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 968e7e7e988bad84a838004fa6d3a375
-    m_Address: textures/pack_imgs/walking0003
+    m_Address: textures/pack_imgs/walking0003.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 981774bb1de309442a8ec8db0ca214eb
-    m_Address: testres/BUFF/12100010
+    m_Address: testres/BUFF/12100010.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 99b0df1d47f1c7a4f81ceff537476a4e
-    m_Address: testres/item/RiverFresh/12000262
+    m_Address: testres/item/RiverFresh/12000262.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9c48dfd7e173e044dbf8cc480bf387e6
-    m_Address: testres/littleMap/11000830
+    m_Address: testres/littleMap/11000830.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9c6547e3b5c9e1249a10d8ec4f9fe57a
-    m_Address: testres/item/Essence/12000302
+    m_Address: testres/item/Essence/12000302.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9dea70ae0ba6ea043a9c9dc24b9b5699
-    m_Address: testres/item/FineSand/12000297
+    m_Address: testres/item/FineSand/12000297.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9e11e7739f034a342bdfdd1e46293f7c
-    m_Address: testres/item/Treasure/12000270
+    m_Address: testres/item/Treasure/12000270.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9faa2f53c36e1704f814abfb6c8e59a1
-    m_Address: testres/item/FlowersAndFruits/12000248
+    m_Address: testres/item/FlowersAndFruits/12000248.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a3380e9f084443b4c8deec697d39a456
-    m_Address: testres/littleMap/11000068
+    m_Address: testres/littleMap/11000068.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a4bdda0b65e70ba46ad63fe789d91bdb
-    m_Address: testres/item/RiverFresh/12000268
+    m_Address: testres/item/RiverFresh/12000268.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a4bec1eab86247f4b9dd5bfa9d07f9dc
-    m_Address: testres/BUFF/12100015
+    m_Address: testres/BUFF/12100015.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a627f0114684eb64baff7c7e03803585
-    m_Address: testres/item/ore/12000282
+    m_Address: testres/item/ore/12000282.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a88fb675dcfde4541ab958614d9dfcf5
-    m_Address: testres/BUFF/12100001
+    m_Address: testres/BUFF/12100001.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a9073efd4d250564f9b29d19176f4086
-    m_Address: testres/littleMap/11000087
+    m_Address: testres/littleMap/11000087.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: acd755e5d968cb247b3e29f76d25e361
-    m_Address: testres/littleMap/11000084
+    m_Address: testres/littleMap/11000084.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ad20bb843062dc848acf8d88f6a2ae73
-    m_Address: testres/skill/11100009
+    m_Address: testres/skill/11100009.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ae74f1945899c534aad9620fe8935bfd
-    m_Address: testres/item/Treasure/12000274
+    m_Address: testres/item/Treasure/12000274.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: afde93444d3b8fe419f4efaaa1597553
-    m_Address: testres/item/FineSand/12000299
+    m_Address: testres/item/FineSand/12000299.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: b125921dcd4b5934eb02852e4f24e7dc
-    m_Address: testres/item/Treasure/12000409
+    m_Address: testres/item/Treasure/12000409.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: b2e09e34fcbebc248a8d21411305ed42
-    m_Address: testres/item/FlowersAndFruits/12000241
+    m_Address: testres/item/FlowersAndFruits/12000241.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: b49998af448809e429c4c3813ba81a00
-    m_Address: testres/item/Essence/12000303
+    m_Address: testres/item/Essence/12000303.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: b99115da7c5cb9645889fd092c04df5c
-    m_Address: textures/pack_imgs/walking0008
+    m_Address: textures/pack_imgs/walking0008.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: baaa87d05f2b4e149b0bc29aeafa3109
-    m_Address: testres/item/ore/12000281
+    m_Address: testres/item/ore/12000281.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: baf50274aa5982547b3068e974f84727
-    m_Address: testres/item/FlowersAndFruits/12000244
+    m_Address: testres/item/FlowersAndFruits/12000244.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: bb169c7136179964eb757c70147c18eb
-    m_Address: testres/NPC/11000690
+    m_Address: testres/NPC/11000690.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: bc5b9a5a61e2dd84d89bec47feaee639
-    m_Address: testres/littleMap/11000083
+    m_Address: testres/littleMap/11000083.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c0f5beffcdd75ff43a662c1603a65ac8
-    m_Address: testres/item/FineSand/12000296
+    m_Address: testres/item/FineSand/12000296.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c31beb682426e3e48ba76d184ebca796
-    m_Address: testres/item/FineSand/12000298
+    m_Address: testres/item/FineSand/12000298.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c3a40d277263f414a883a32ea2453f7b
-    m_Address: testres/item/ore/12000288
+    m_Address: testres/item/ore/12000288.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c475b4e859ce1fc418eae6ddba8f7bc1
-    m_Address: testres/item/ore/12000284
+    m_Address: testres/item/ore/12000284.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c692b0d2384e3c046850d38ebdc59c78
-    m_Address: testres/item/RiverFresh/12000265
+    m_Address: testres/item/RiverFresh/12000265.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c73cfa691cfa81b4cabb7d18f47b5e49
-    m_Address: testres/item/ore/12000286
+    m_Address: testres/item/ore/12000286.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: cbe41fbe4a4d8da4a8e674c058b06b9c
-    m_Address: testres/item/Herb/12000254
+    m_Address: testres/item/Herb/12000254.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ccf976ea44a9e7c4daa896b0f40c2674
-    m_Address: testres/BUFF/12100004
+    m_Address: testres/BUFF/12100004.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: cee2639080a1bdb469dbb9ebe758f722
-    m_Address: testres/item/FlowersAndFruits/12000247
+    m_Address: testres/item/FlowersAndFruits/12000247.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d1aa24e7794f20d4b83d22fa7e11ab2f
-    m_Address: testres/item/Treasure/12000279
+    m_Address: testres/item/Treasure/12000279.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d2ed9b0b52d084f4485e4c3a5f57f9dd
-    m_Address: testres/item/Essence/12000304
+    m_Address: testres/item/Essence/12000304.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d36eadd811ba6da49844333f7912c0ec
-    m_Address: textures/pack_imgs/walking0009
+    m_Address: textures/pack_imgs/walking0009.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d616d05954730314d9595e5003496fba
-    m_Address: testres/littleMap/11000082
+    m_Address: testres/littleMap/11000082.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d63eae5fb0df1af45b9d2ecc9eb2965b
-    m_Address: testres/item/Herb/12000256
+    m_Address: testres/item/Herb/12000256.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: dcc7b95d15b00c5499c6a8db722e6ae7
-    m_Address: testres/item/Treasure/12000272
+    m_Address: testres/item/Treasure/12000272.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: dd85225c09e91e4478cf1632e09221ec
-    m_Address: textures/pack_imgs/walking0004
+    m_Address: textures/pack_imgs/walking0004.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: dffb415660359754484f8c15cf7bee89
-    m_Address: testres/item/Treasure/12000277
+    m_Address: testres/item/Treasure/12000277.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e2090ae0bba16d842a755ab3c49538bf
-    m_Address: testres/BUFF/12100018
+    m_Address: testres/BUFF/12100018.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e25f297ee17e3fd46998b3f38e2e86cf
-    m_Address: testres/NPC/11000683
+    m_Address: testres/NPC/11000683.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e3f085c0b208cf14da9952bba06ffd52
-    m_Address: textures/white
+    m_Address: textures/white.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e44ebc8e0572b7b4890c057bd333e389
-    m_Address: textures/pack_imgs/walking0001
+    m_Address: textures/pack_imgs/walking0001.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e49eb964f6645f248905474f47b8102f
-    m_Address: testres/NPC/11000693
+    m_Address: testres/NPC/11000693.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e8fd3d919c6b03041bad1598e8fc8289
-    m_Address: testres/item/Treasure/12000278
+    m_Address: testres/item/Treasure/12000278.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e92c11db617ac244392eceee4320c4e2
-    m_Address: testres/skill/11100107
+    m_Address: testres/skill/11100107.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ebdf0509ca0f8674fb1eeb8f289d80bd
-    m_Address: testres/littleMap/11000069
+    m_Address: testres/littleMap/11000069.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ec13a7aeb9afef74dbf16cf321b8c406
-    m_Address: testres/BUFF/12100008
+    m_Address: testres/BUFF/12100008.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ec795820f2a66da4aaacb382d40aa69b
-    m_Address: testres/littleMap/11000078
+    m_Address: testres/littleMap/11000078.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ece8abc5f2ca7de45b6d6afbc1542afd
-    m_Address: testres/littleMap/11000071
+    m_Address: testres/littleMap/11000071.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: f0e434db5bc88274fbef794207c28644
-    m_Address: testres/item/FlowersAndFruits/12000249
+    m_Address: testres/item/FlowersAndFruits/12000249.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: f24a0c7260998854ab7f116c46d5ee3f
-    m_Address: testres/item/RiverFresh/12000407
+    m_Address: testres/item/RiverFresh/12000407.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: f4c3393ce8fc3e445b5243b49332d272
-    m_Address: testres/item/Herb/12000405
+    m_Address: testres/item/Herb/12000405.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: f857207494b0b1f4a8476c7785e2df4f
-    m_Address: testres/item/Essence/12000301
+    m_Address: testres/item/Essence/12000301.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fa8115774103f5044a4f4520502ba2d5
-    m_Address: testres/item/Essence/12000300
+    m_Address: testres/item/Essence/12000300.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fabd787af730f20498d046cc1913dc4d
-    m_Address: testres/item/ore/12000287
+    m_Address: testres/item/ore/12000287.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fb77191580ef26e48a43662798ee5273
-    m_Address: testres/item/RiverFresh/12000266
+    m_Address: testres/item/RiverFresh/12000266.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fc9f45b913d35834295a570e9d19c7b0
-    m_Address: testres/NPC/11000684
+    m_Address: testres/NPC/11000684.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fe187cab0805b8942a43b0eab04ebdab
-    m_Address: testres/item/ore/12000289
+    m_Address: testres/item/ore/12000289.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fe4c7c6a116ccea469863c972a9630f9
-    m_Address: testres/item/Herb/12000257
+    m_Address: testres/item/Herb/12000257.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fecb650424f0dde468c997a6401e582c
-    m_Address: testres/item/ore/12000283
+    m_Address: testres/item/ore/12000283.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ffaf49723e3c9044c8ad1d3b05e1e390
-    m_Address: testres/littleMap/11000076
+    m_Address: testres/littleMap/11000076.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

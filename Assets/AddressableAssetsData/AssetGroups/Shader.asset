@@ -15,10 +15,10 @@ MonoBehaviour:
   m_GroupName: Shader
   m_Data:
     m_SerializedData: []
-  m_GUID: 9b03561ed83e8664382240e4f7e9ba3b
+  m_GUID: 1a79ee610cc892948ae05d1fad7432c0
   m_SerializeEntries:
   - m_GUID: 5a1f9a454a3d09944a791175a8785bc3
-    m_Address: shaders/DynamicAtlasGraphicBlitShader
+    m_Address: shaders/DynamicAtlasGraphicBlitShader.shader
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

@@ -32,7 +32,7 @@ MonoBehaviour:
     groupTemplateApplicationMode: 0
     simplified: 0
     addressReplacement: ${asset}
-  - path: Assets/AssetsPackage/(?<asset>.*).prefab
+  - path: Assets/AssetsPackage/prefabs/(?<asset>.*).prefab
     matchType: 1
     groupName: Prefab
     LabelMode: 1
@@ -40,7 +40,7 @@ MonoBehaviour:
     groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
     groupTemplateApplicationMode: 0
     simplified: 0
-    addressReplacement: ${asset}
+    addressReplacement: prefabs/${asset}
   - path: Assets/AssetsPackage/(?<asset>.*).unity
     matchType: 1
     groupName: Scene

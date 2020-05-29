@@ -18,13 +18,13 @@ MonoBehaviour:
   m_GUID: a9a3805ddee27454aa98f229d283575e
   m_SerializeEntries:
   - m_GUID: EditorSceneList
-    m_Address: EditorSceneList
+    m_Address: Scenes In Build
     m_ReadOnly: 1
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: Resources
-    m_Address: Resources
+    m_Address: '*/Resources/'
     m_ReadOnly: 1
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

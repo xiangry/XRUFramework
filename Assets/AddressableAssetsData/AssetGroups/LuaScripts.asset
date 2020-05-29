@@ -15,136 +15,130 @@ MonoBehaviour:
   m_GroupName: LuaScripts
   m_Data:
     m_SerializedData: []
-  m_GUID: a539218a2f9b0ff47a0ff5fde62b5dbd
+  m_GUID: f95179a9a19599742abe3d1ac51ae3a0
   m_SerializeEntries:
   - m_GUID: 0689a891e24cc1544989950a9e7e6c7a
-    m_Address: lua/config15
+    m_Address: lua/config15.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0f986c6fe38769641b9332aefcffb716
-    m_Address: lua/config17
+    m_Address: lua/config17.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 18160ae1709a6ab4d8c966b3e35df6d9
-    m_Address: lua/config27
+    m_Address: lua/config27.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1aefa0aaf6fc64944bd1578ab411c578
-    m_Address: lua/config21
+    m_Address: lua/config21.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1af590dcead0fc543844134dbffd684e
-    m_Address: lua/config13
+    m_Address: lua/config13.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 204b35bac02c56549b04f727b6a45b86
-    m_Address: lua/config32
+    m_Address: lua/config32.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 329316d09b11bed42be3a65de233ef8d
-    m_Address: lua/config18
+    m_Address: lua/config18.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 3673dc3b2b036dc4e826eb6a0012cc58
-    m_Address: lua/config26
+    m_Address: lua/config26.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 3b7db663619c5c145aa23d8e466145a4
-    m_Address: lua/config16
+    m_Address: lua/config16.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 471c56a5119825d448ec84d27c907bd6
-    m_Address: lua/config25
+    m_Address: lua/config25.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4a7ca36988ad8834b9800fa91fe614d2
-    m_Address: lua/config31
+    m_Address: lua/config31.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7aad452074f67b04587188ae38e6e071
-    m_Address: lua/config14
+    m_Address: lua/config14.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7e48c55f339dd474da68b1a003ea4ad9
-    m_Address: lua/config33
+    m_Address: lua/config33.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8663f8cd9ca723e4a9d27728ba1d2600
-    m_Address: lua/config28
+    m_Address: lua/config28.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 931938ec282da3a49b3d0aedb15b7eb9
-    m_Address: lua/config24
+    m_Address: lua/config24.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 97d57a9f29b63154a976ebac1dc6d150
-    m_Address: lua/config23
+    m_Address: lua/config23.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a04018a845a570e42a9768c14ccf260a
-    m_Address: lua/config29
+    m_Address: lua/config29.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: a0e5a843f3448ce4fae3a0c6a5e58c35
-    m_Address: lua/config19
+    m_Address: lua/config19.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: b5a40833efd71524f995a03151f6c2b5
-    m_Address: lua/config22
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: c1699f8d05f6c304281b8433731d11fc
-    m_Address: material/config13
+    m_Address: lua/config22.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d90967f6464f8d3498afc1eb0db432e3
-    m_Address: lua/config30
+    m_Address: lua/config30.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e8262ec63cf201848b15a1d98ff97dfa
-    m_Address: lua/config20
+    m_Address: lua/config20.bytes
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

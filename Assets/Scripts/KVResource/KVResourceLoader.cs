@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.Events;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
+using Object = UnityEngine.Object;
 
 /// <summary>
 /// added by wsh @ 2017.12.22
@@ -11,22 +15,49 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class KVResourceLoader : IEnumerator, IDisposable
 {
-    private AsyncOperationHandle asyncOperationHandle;
-    private string assetPath;
+    public AsyncOperationHandle loadHandle;
+    public string assetPath;
+    private Type loadType;
+    public event UnityAction<object> OnAssetLoaded;
     
-    
-    public KVResourceLoader(AsyncOperationHandle ao, string path = null)
+    public KVResourceLoader(string path = null, Type type = null)
     {
-        asyncOperationHandle = ao;
+        loadType = type;
         assetPath = path;
-        
-        ao.Completed += handle =>
+        if (loadType == typeof(Scene))
         {
-            if (handle.Status == AsyncOperationStatus.Failed)
+            loadHandle = Addressables.LoadSceneAsync(path);
+        }
+        else
+        {
+            loadHandle = Addressables.LoadAssetAsync<object>(path);
+        }
+        
+        loadHandle.Completed += handle =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                Debug.Log($"加载{assetPath}成功: {loadHandle.Result}");
+                OnAssetLoaded?.Invoke(loadHandle.Result);
+            }
+            else
             {
                 Debug.LogError($"加载{assetPath}失败: {handle.OperationException}");
             }
         };
+#if UNITY_EDITOR
+        loadHandle.Completed += handle =>
+        {
+            if (handle.IsValid() && handle.IsDone)
+            {
+                GameObject obj = handle.Result as GameObject;
+                if (obj != null)
+                {
+//                    UtilityGame.ShaderRecover(obj);                    
+                }
+            }
+        };
+#endif
     }
 
     public bool MoveNext()
@@ -59,26 +90,54 @@ public class KVResourceLoader : IEnumerator, IDisposable
 
     public bool IsDone()
     {
-        return asyncOperationHandle.IsDone;
+        return loadHandle.IsDone;
     }
 
     public float Progress()
     {
-        return asyncOperationHandle.PercentComplete;
+        return loadHandle.PercentComplete;
     }
 
     public void Dispose()
     {
-//        Addressables.Release(asyncOperationHandle);
-//        asyncOperationHandle = Addressables.UnloadSceneAsync(asyncOperationHandle);
+        if (loadType == typeof(Scene))
+        {
+            Addressables.UnloadSceneAsync(loadHandle);
+        }
+        else
+        {
+            Addressables.Release(loadHandle);
+        }
+
+    }
+
+    public bool CheckValid()
+    {
+        if (loadHandle.IsValid())
+        {
+            return true;
+        }
+        else
+        {
+            Debug.LogError($"asset({assetPath}) handle not valid");
+            return false;
+        }
     }
 
     public object asset
     {
         get
         {
-//            Debug.LogError($" asyncOperationHandle : {asyncOperationHandle.Status} {asyncOperationHandle.Result}");
-            return asyncOperationHandle.Result;
+            if (loadHandle.IsValid())
+            {
+//              Debug.Log($" loadHandle : {loadHandle.Status} {loadHandle.Result}");
+                return loadHandle.Result;
+            }
+            else
+            {
+                Debug.LogError($"asset({assetPath}) handle not valid");
+                return null;
+            }
         }
     }
 }

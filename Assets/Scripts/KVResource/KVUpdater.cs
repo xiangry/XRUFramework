@@ -4,37 +4,30 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Net;
-using UnityEditor.SceneManagement;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
-using UnityEngine.ResourceManagement.ResourceProviders;
-using Object = System.Object;
 
-/// <summary>
-/// added by wsh @ 2017.12.29
-/// 功能：Assetbundle更新器
-/// </summary>
 
 public class KVUpdater : MonoBehaviour
 {
     enum EUpdateState
     {
         None = 0,
-        CheckUpdate,
-        AfterCheck,
+        CheckUpdateCatalogs,
+        AfterCheckCatalogs,
         StartUpdateCatalogs,
+        CheckUpdateData,
         StartUpdateData,
-        AfterUpdate,
+        UpdateComplete,
     }
 
     private EUpdateState curState = EUpdateState.None;
-//    private bool needUpdate = false;
     private List<string> updateCatalogsList;
     private AsyncOperationHandle<List<string>> checkHandle;
-    private AsyncOperationHandle<List<IResourceLocator>> updateHandle;
+    private AsyncOperationHandle<List<IResourceLocator>> catelogHandle;
+    private AsyncOperationHandle downloadHandle;
     private float checkUpdateTime = 0f;
     private float CHECKTIMEMAX = 5f;
 
@@ -49,6 +42,7 @@ public class KVUpdater : MonoBehaviour
         text_info = transform.Find("text_info").GetComponent<Text>();
         text_progress = transform.Find("slider/progress").GetComponent<Text>();
         slider = transform.Find("slider/top").GetComponent<Image>();
+        slider.gameObject.SetActive(false);
 
         MarkNeedDownloadState(true);
     }
@@ -74,7 +68,7 @@ public class KVUpdater : MonoBehaviour
 
     void StartCheckUpdate()
     {
-        text_progress.text = "正在检测资源更新";
+        UpdateProgressText("正在检测资源更新");
         slider.fillAmount = 0f;
 
         StartCoroutine(CheckUpdate());
@@ -82,7 +76,7 @@ public class KVUpdater : MonoBehaviour
 
     IEnumerator CheckUpdate()
     {
-        SetState(EUpdateState.CheckUpdate);
+        SetState(EUpdateState.CheckUpdateCatalogs);
 
         var needUpdateCatalogs = false;
         var start = DateTime.Now;
@@ -100,7 +94,7 @@ public class KVUpdater : MonoBehaviour
                     updateCatalogsList = catalogs;
                 }
             }
-            SetState(EUpdateState.AfterCheck);
+            SetState(EUpdateState.AfterCheckCatalogs);
         };   
         yield return checkHandle;
         Debug.Log($"CheckIfNeededUpdate({needUpdateCatalogs}) use {(DateTime.Now - start).Milliseconds} ms");    
@@ -119,7 +113,7 @@ public class KVUpdater : MonoBehaviour
         if (IsLastDownloadComplete())
         {
             //检查到有资源需要更新
-            text_progress.text = "有资源需要更新";
+            UpdateProgressText("有资源需要更新");
             yield return DownloadUpdateData();
         }
 
@@ -130,7 +124,7 @@ public class KVUpdater : MonoBehaviour
     public void DownComplete(bool isSuccess = true)
     {
         slider.fillAmount = 1;
-        text_progress.text = $"下载完成 state:{curState} isSuccess:{isSuccess}";
+        UpdateProgressText($"下载完成 state:{curState} isSuccess:{isSuccess}");
     }
 
     IEnumerator DownloadCatalogs()
@@ -138,20 +132,21 @@ public class KVUpdater : MonoBehaviour
         var start = DateTime.Now;
         //开始下载资源
         SetState(EUpdateState.StartUpdateCatalogs);
-        updateHandle = Addressables.UpdateCatalogs(updateCatalogsList, false);
-        updateHandle.Completed += handle =>
+        catelogHandle = Addressables.UpdateCatalogs(updateCatalogsList, false);
+        catelogHandle.Completed += handle =>
         {
             MarkNeedDownloadState(true);
             //下载完成
-            SetState(EUpdateState.AfterUpdate);
+            SetState(EUpdateState.UpdateComplete);
             Debug.Log($"下载完成Catalogs------------- use time:{(DateTime.Now - start).Milliseconds} ms");
         }; 
-        yield return updateHandle;
+        yield return catelogHandle;
+        Addressables.Release(catelogHandle);
     }
     
     IEnumerator DownloadUpdateData()
     {
-        SetState(EUpdateState.StartUpdateData);
+        SetState(EUpdateState.CheckUpdateData);
         List<IResourceLocation> locations = new List<IResourceLocation>();
         foreach (var locator in Addressables.ResourceLocators)
         {
@@ -187,9 +182,11 @@ public class KVUpdater : MonoBehaviour
         start = DateTime.Now;
         if (downSize > 0)
         {
+            SetState(EUpdateState.StartUpdateData);
+            slider.gameObject.SetActive(true);
             MarkNeedDownloadState(true);
-            var downAo = Addressables.DownloadDependenciesAsync(locations);
-            downAo.Completed += handle =>
+            downloadHandle = Addressables.DownloadDependenciesAsync(locations);
+            downloadHandle.Completed += handle =>
             {
                 Debug.Log($"下载DownLoadData------------- use time:{(DateTime.Now - start).Milliseconds} ms");
 //                var list = handle.Result as List<IAssetBundleResource>;
@@ -198,13 +195,14 @@ public class KVUpdater : MonoBehaviour
 //                    Debug.Log($"------------------ {item.GetAssetBundle().name}");
 //                }
             };
-            yield return  downAo;
+            yield return  downloadHandle;
+            Addressables.Release(downloadHandle);
         }
         
         {
             MarkNeedDownloadState(false);
         }
-        SetState(EUpdateState.AfterUpdate);
+        SetState(EUpdateState.UpdateComplete);
         yield break;
     }
 
@@ -212,28 +210,31 @@ public class KVUpdater : MonoBehaviour
 	void Update () {
         switch (curState)
         {
-            case EUpdateState.CheckUpdate:
+            case EUpdateState.CheckUpdateCatalogs:
             {
                 checkUpdateTime += Time.deltaTime;
                 if (checkUpdateTime > CHECKTIMEMAX)
                 {
-                    SetState(EUpdateState.AfterCheck);
+                    SetState(EUpdateState.AfterCheckCatalogs);
                     StopAllCoroutines();
                     DownComplete(false);
                 }
                 else if(checkHandle.IsValid())
                 {
-                    slider.fillAmount = checkHandle.PercentComplete;
-                    text_progress.text = $"检测更新:{checkHandle.PercentComplete}";
+                    OnDownProgress(checkHandle.PercentComplete);
                 }
+                break;
+            }
+            case EUpdateState.StartUpdateCatalogs:
+            {
+                OnDownProgress(catelogHandle.PercentComplete);
                 break;
             }
             case EUpdateState.StartUpdateData:
             {
-                if (updateHandle.IsValid())
+                if (catelogHandle.IsValid())
                 {
-                    text_progress.text = $"下载中:{updateHandle.PercentComplete}";
-                    slider.fillAmount = updateHandle.PercentComplete;
+                    OnDownProgress(downloadHandle.PercentComplete);
                 }
                 break;
             }
@@ -273,7 +274,6 @@ public class KVUpdater : MonoBehaviour
         }        DestroyImmediate(gameObject);
     }
 
-    
 
     void SetState(EUpdateState state)
     {
@@ -305,5 +305,17 @@ public class KVUpdater : MonoBehaviour
     {
         var writePath = Application.persistentDataPath;
         return Path.Combine(writePath, "down.lock");
+    }
+
+    void OnDownProgress(float precent)
+    {
+        slider.fillAmount = precent;
+        UpdateProgressText($"状态{curState}:{precent}");
+        Debug.Log($"KVUpdate 状态{curState}:{precent}");
+    }
+
+    void UpdateProgressText(string msg)
+    {
+        text_progress.text = msg;
     }
 }

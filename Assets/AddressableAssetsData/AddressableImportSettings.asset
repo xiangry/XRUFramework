@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457b6e6d3304bd46a31be63dad3325c, type: 3}
+  m_Name: AddressableImportSettings
+  m_EditorClassIdentifier: 
+  allowGroupCreation: 1
+  rules:
+  - path: Assets/AssetsPackage/(?<asset>.*).bytes
+    matchType: 1
+    groupName: LuaScripts
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
+  - path: Assets/AssetsPackage/(?<asset>.*).material
+    matchType: 1
+    groupName: Material
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
+  - path: Assets/AssetsPackage/(?<asset>.*).prefab
+    matchType: 1
+    groupName: Prefab
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
+  - path: Assets/AssetsPackage/(?<asset>.*).unity
+    matchType: 1
+    groupName: Scene
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
+  - path: Assets/AssetsPackage/(?<asset>.*).png
+    matchType: 1
+    groupName: Texture
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
+  - path: Assets/AssetsPackage/(?<asset>.*).shader
+    matchType: 1
+    groupName: Shader
+    LabelMode: 1
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: a79e97b620fc1f54c8144b924add139b, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: ${asset}
